@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfiles</title>
+    <style>
+        body {
+            background-image: url("Imagenes/__atri_atri_my_dear_moments_drawn_by_orangewalker__d10a7011eae9cea253231a15efb9413d.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh; /* Hace que el body ocupe el 100% de la altura de la ventana */
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            margin: 0;
+        }
+        table {
+            text-align: center;
+        }
+        /* Estilo para el cuadro transparente */
+        .cuadro-transparente {
+            background-color: rgba(255, 255, 255, 0.5); /* Blanco con 50% de opacidad */
+            border-radius: 15px;
+            padding: 20px;
+            width: 80% auto;
+            max-width: 800px; /* Limita el ancho máximo del cuadro */
+            margin: 0 auto;
+        }
+        img {
+            border-radius: 50%; 
+        }
+        h1 {
+            color: black;
+        }
+        hr {
+            border: 1px solid black;
+            width: 80%;
+            margin: 20px auto;
+        }
+        .gustos {
+            background-color: rgba(185, 39, 39, 0.1); 
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        ul {
+            list-style-type: square; /* Cambia el estilo de la lista a cuadrado */
+            padding-left: 20px;
+            text-align: left;
+        }
+        /* Contenedor para alinear las imágenes en línea */
+        .galeria-imagenes {
+            display: flex;
+            justify-content: center; /* Centra las imágenes horizontalmente */
+            gap: 20px; /* Espacio entre las imágenes */
+            flex-wrap: wrap; /* Permite que las imágenes se ajusten a la línea */
+        }
+        .galeria-imagenes img {
+            width: 150px; /* Ajusta el tamaño de las imágenes */
+            height: auto;
+            border-radius: 10px; /* Opcional, para bordes redondeados */
+        }
+    </style>
+</head>
+<body>
+    <!-- Cuadro de contenido transparente -->
+    <div class="cuadro-transparente">
+        <table align="left">
+            <tr>
+                <td>
+                    <table width="100%">
+                        <h1>David Alejandro Vázquez Boss</h1> 
+                        <hr>
+                        <!-- Cuadro para la sección de Gustos -->
+                        <div class="gustos">
+                            <h2>Gustos:</h2>
+                            <ul>
+                                <li>Programación</li>
+                                <li>Videojuegos</li>
+                                <li>Leer manga</li>
+                                <li>Escuchar música</li>
+                                <li>Algunas novelas</li>
+                            </ul>
+                        </div>
+                        <div class="gustos">
+                            <h2>Videojuego Favorito</h2>
+                            <h3>Ender Lilies</h3>               
+                            <h2>¿Por qué?</h2>
+                            <ul>
+                                <li>Es un juego visualmente hermoso</li>
+                                <li>Su banda sonora es igual de hermosa</li>
+                                <li>Tiene una dificultad agradable para el jugador</li> 
+                            </ul>
+                        </div>
+                        <div class="gustos">
+                            <h2 align="center">Música recomendada</h2>
+                            <h3 align="center">Aquí algunas de mis canciones favoritas:</h3>
+                            
+                            <!-- Contenedor para alinear las imágenes en una línea -->
+                            <div class="galeria-imagenes">
+                                <a href="https://www.youtube.com/watch?v=vEsodHxfRCk" target="_blank">
+                                    <img src="https://static.wikia.nocookie.net/d4dj/images/0/05/Gyakusaka_Groovy_Mix_Cover_Art.jpg/revision/latest?cb=20230820115457" alt="Canción Gyakusaka">
+                                </a>
+                                <a href="https://www.youtube.com/watch?v=Xo1g5HWgaRA" target="_blank">
+                                    <img src="Imagenes/Literature_CD_Cover_29.png" alt="Canción Literature">
+                                </a>
+                                <a href="https://www.youtube.com/watch?v=7XeWXV_9mOY" target="_blank">
+                                    <img src="Imagenes/Fake_Idol.png" alt="Canción Fake Idol">
+                                </a>
+                            </div>
+                        </div>
+                    </table>
+                </td>
+            </tr>
+            <tr style="background-color: rgba(255, 255, 255, 0.11);">
+                <td align="center">
+                    <a href="index.html">Regresa</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
